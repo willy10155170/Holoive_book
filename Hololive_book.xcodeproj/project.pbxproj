@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B40638132733356300A3183C /* Hololive_bookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40638122733356300A3183C /* Hololive_bookApp.swift */; };
+		B40638152733356300A3183C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40638142733356300A3183C /* ContentView.swift */; };
+		B40638172733356700A3183C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40638162733356700A3183C /* Assets.xcassets */; };
+		B406381A2733356700A3183C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40638192733356700A3183C /* Preview Assets.xcassets */; };
+		B40638242733356700A3183C /* Hololive_bookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40638232733356700A3183C /* Hololive_bookTests.swift */; };
+		B406382E2733356700A3183C /* Hololive_bookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406382D2733356700A3183C /* Hololive_bookUITests.swift */; };
+		B40638302733356700A3183C /* Hololive_bookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406382F2733356700A3183C /* Hololive_bookUITestsLaunchTests.swift */; };
+		B406383F27333A3000A3183C /* Hololive_Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406383E27333A3000A3183C /* Hololive_Member.swift */; };
+		B406384127333B3B00A3183C /* Member_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406384027333B3B00A3183C /* Member_info.swift */; };
+		B406384327333F1E00A3183C /* Member_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406384227333F1E00A3183C /* Member_List.swift */; };
+		B406384527333F7200A3183C /* Generation_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406384427333F7200A3183C /* Generation_View.swift */; };
+		B406384727333FD100A3183C /* Generation_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406384627333FD100A3183C /* Generation_info.swift */; };
+		B420111227351DAA00CE13E3 /* Home_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420111127351DAA00CE13E3 /* Home_View.swift */; };
+		B4201117273527F100CE13E3 /* hololive_alternative.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B4201116273527F100CE13E3 /* hololive_alternative.mp4 */; };
+		B4201118273527F100CE13E3 /* hololive_alternative.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B4201116273527F100CE13E3 /* hololive_alternative.mp4 */; };
+		B4201119273527F100CE13E3 /* hololive_alternative.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B4201116273527F100CE13E3 /* hololive_alternative.mp4 */; };
+		B420111B273528BF00CE13E3 /* Video_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420111A273528BF00CE13E3 /* Video_View.swift */; };
+		B420111C273528BF00CE13E3 /* Video_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420111A273528BF00CE13E3 /* Video_View.swift */; };
+		B420111D273528BF00CE13E3 /* Video_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420111A273528BF00CE13E3 /* Video_View.swift */; };
+		B420111F2735371800CE13E3 /* HGrid_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420111E2735371800CE13E3 /* HGrid_View.swift */; };
+		B42011202735371800CE13E3 /* HGrid_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420111E2735371800CE13E3 /* HGrid_View.swift */; };
+		B42011212735371800CE13E3 /* HGrid_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420111E2735371800CE13E3 /* HGrid_View.swift */; };
+		B420112D2735745500CE13E3 /* All_Member_Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420112C2735745500CE13E3 /* All_Member_Grid.swift */; };
+		B42011302735AC2400CE13E3 /* DD_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420112F2735AC2400CE13E3 /* DD_View.swift */; };
+		B42011322735AF9600CE13E3 /* DD_IMG_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42011312735AF9600CE13E3 /* DD_IMG_View.swift */; };
+		B42011342735B96500CE13E3 /* DD_Move_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42011332735B96500CE13E3 /* DD_Move_View.swift */; };
+		B42B38752733EF3D006AC57C /* Showing_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B38742733EF3D006AC57C /* Showing_View.swift */; };
+		B42B387927342B25006AC57C /* Generation_Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B387827342B25006AC57C /* Generation_Row.swift */; };
+		B42B387B2734888C006AC57C /* Grid_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B387A2734888C006AC57C /* Grid_View.swift */; };
+		B42B387D273489EE006AC57C /* All_Member_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B387C273489EE006AC57C /* All_Member_View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B40638202733356700A3183C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40638072733356300A3183C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B406380E2733356300A3183C;
+			remoteInfo = Hololive_book;
+		};
+		B406382A2733356700A3183C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B40638072733356300A3183C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B406380E2733356300A3183C;
+			remoteInfo = Hololive_book;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B406380F2733356300A3183C /* Hololive_book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hololive_book.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40638122733356300A3183C /* Hololive_bookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hololive_bookApp.swift; sourceTree = "<group>"; };
+		B40638142733356300A3183C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B40638162733356700A3183C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B40638192733356700A3183C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B406381F2733356700A3183C /* Hololive_bookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hololive_bookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40638232733356700A3183C /* Hololive_bookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hololive_bookTests.swift; sourceTree = "<group>"; };
+		B40638292733356700A3183C /* Hololive_bookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hololive_bookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B406382D2733356700A3183C /* Hololive_bookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hololive_bookUITests.swift; sourceTree = "<group>"; };
+		B406382F2733356700A3183C /* Hololive_bookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hololive_bookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B406383E27333A3000A3183C /* Hololive_Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hololive_Member.swift; sourceTree = "<group>"; };
+		B406384027333B3B00A3183C /* Member_info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member_info.swift; sourceTree = "<group>"; };
+		B406384227333F1E00A3183C /* Member_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member_List.swift; sourceTree = "<group>"; };
+		B406384427333F7200A3183C /* Generation_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generation_View.swift; sourceTree = "<group>"; };
+		B406384627333FD100A3183C /* Generation_info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generation_info.swift; sourceTree = "<group>"; };
+		B420111127351DAA00CE13E3 /* Home_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_View.swift; sourceTree = "<group>"; };
+		B4201116273527F100CE13E3 /* hololive_alternative.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hololive_alternative.mp4; sourceTree = "<group>"; };
+		B420111A273528BF00CE13E3 /* Video_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_View.swift; sourceTree = "<group>"; };
+		B420111E2735371800CE13E3 /* HGrid_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGrid_View.swift; sourceTree = "<group>"; };
+		B420112C2735745500CE13E3 /* All_Member_Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Member_Grid.swift; sourceTree = "<group>"; };
+		B420112E2735A81500CE13E3 /* Hololive-book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Hololive-book-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B420112F2735AC2400CE13E3 /* DD_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DD_View.swift; sourceTree = "<group>"; };
+		B42011312735AF9600CE13E3 /* DD_IMG_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DD_IMG_View.swift; sourceTree = "<group>"; };
+		B42011332735B96500CE13E3 /* DD_Move_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DD_Move_View.swift; sourceTree = "<group>"; };
+		B42B38742733EF3D006AC57C /* Showing_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showing_View.swift; sourceTree = "<group>"; };
+		B42B387827342B25006AC57C /* Generation_Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generation_Row.swift; sourceTree = "<group>"; };
+		B42B387A2734888C006AC57C /* Grid_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid_View.swift; sourceTree = "<group>"; };
+		B42B387C273489EE006AC57C /* All_Member_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Member_View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B406380C2733356300A3183C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406381C2733356700A3183C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40638262733356700A3183C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B40638062733356300A3183C = {
+			isa = PBXGroup;
+			children = (
+				B40638112733356300A3183C /* Hololive_book */,
+				B40638222733356700A3183C /* Hololive_bookTests */,
+				B406382C2733356700A3183C /* Hololive_bookUITests */,
+				B40638102733356300A3183C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B40638102733356300A3183C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B406380F2733356300A3183C /* Hololive_book.app */,
+				B406381F2733356700A3183C /* Hololive_bookTests.xctest */,
+				B40638292733356700A3183C /* Hololive_bookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B40638112733356300A3183C /* Hololive_book */ = {
+			isa = PBXGroup;
+			children = (
+				B420112E2735A81500CE13E3 /* Hololive-book-Info.plist */,
+				B40638122733356300A3183C /* Hololive_bookApp.swift */,
+				B40638142733356300A3183C /* ContentView.swift */,
+				B420111127351DAA00CE13E3 /* Home_View.swift */,
+				B420111A273528BF00CE13E3 /* Video_View.swift */,
+				B42B387A2734888C006AC57C /* Grid_View.swift */,
+				B420111E2735371800CE13E3 /* HGrid_View.swift */,
+				B42B387C273489EE006AC57C /* All_Member_View.swift */,
+				B420112F2735AC2400CE13E3 /* DD_View.swift */,
+				B42011332735B96500CE13E3 /* DD_Move_View.swift */,
+				B42011312735AF9600CE13E3 /* DD_IMG_View.swift */,
+				B420112C2735745500CE13E3 /* All_Member_Grid.swift */,
+				B406383E27333A3000A3183C /* Hololive_Member.swift */,
+				B42B387827342B25006AC57C /* Generation_Row.swift */,
+				B42B38742733EF3D006AC57C /* Showing_View.swift */,
+				B406384227333F1E00A3183C /* Member_List.swift */,
+				B406384427333F7200A3183C /* Generation_View.swift */,
+				B406384627333FD100A3183C /* Generation_info.swift */,
+				B406384027333B3B00A3183C /* Member_info.swift */,
+				B4201116273527F100CE13E3 /* hololive_alternative.mp4 */,
+				B40638162733356700A3183C /* Assets.xcassets */,
+				B40638182733356700A3183C /* Preview Content */,
+			);
+			path = Hololive_book;
+			sourceTree = "<group>";
+		};
+		B40638182733356700A3183C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B40638192733356700A3183C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B40638222733356700A3183C /* Hololive_bookTests */ = {
+			isa = PBXGroup;
+			children = (
+				B40638232733356700A3183C /* Hololive_bookTests.swift */,
+			);
+			path = Hololive_bookTests;
+			sourceTree = "<group>";
+		};
+		B406382C2733356700A3183C /* Hololive_bookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B406382D2733356700A3183C /* Hololive_bookUITests.swift */,
+				B406382F2733356700A3183C /* Hololive_bookUITestsLaunchTests.swift */,
+			);
+			path = Hololive_bookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B406380E2733356300A3183C /* Hololive_book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40638332733356700A3183C /* Build configuration list for PBXNativeTarget "Hololive_book" */;
+			buildPhases = (
+				B406380B2733356300A3183C /* Sources */,
+				B406380C2733356300A3183C /* Frameworks */,
+				B406380D2733356300A3183C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hololive_book;
+			productName = Hololive_book;
+			productReference = B406380F2733356300A3183C /* Hololive_book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B406381E2733356700A3183C /* Hololive_bookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40638362733356700A3183C /* Build configuration list for PBXNativeTarget "Hololive_bookTests" */;
+			buildPhases = (
+				B406381B2733356700A3183C /* Sources */,
+				B406381C2733356700A3183C /* Frameworks */,
+				B406381D2733356700A3183C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40638212733356700A3183C /* PBXTargetDependency */,
+			);
+			name = Hololive_bookTests;
+			productName = Hololive_bookTests;
+			productReference = B406381F2733356700A3183C /* Hololive_bookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B40638282733356700A3183C /* Hololive_bookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B40638392733356700A3183C /* Build configuration list for PBXNativeTarget "Hololive_bookUITests" */;
+			buildPhases = (
+				B40638252733356700A3183C /* Sources */,
+				B40638262733356700A3183C /* Frameworks */,
+				B40638272733356700A3183C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B406382B2733356700A3183C /* PBXTargetDependency */,
+			);
+			name = Hololive_bookUITests;
+			productName = Hololive_bookUITests;
+			productReference = B40638292733356700A3183C /* Hololive_bookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B40638072733356300A3183C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B406380E2733356300A3183C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B406381E2733356700A3183C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B406380E2733356300A3183C;
+					};
+					B40638282733356700A3183C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B406380E2733356300A3183C;
+					};
+				};
+			};
+			buildConfigurationList = B406380A2733356300A3183C /* Build configuration list for PBXProject "Hololive_book" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B40638062733356300A3183C;
+			productRefGroup = B40638102733356300A3183C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B406380E2733356300A3183C /* Hololive_book */,
+				B406381E2733356700A3183C /* Hololive_bookTests */,
+				B40638282733356700A3183C /* Hololive_bookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B406380D2733356300A3183C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406381A2733356700A3183C /* Preview Assets.xcassets in Resources */,
+				B4201117273527F100CE13E3 /* hololive_alternative.mp4 in Resources */,
+				B40638172733356700A3183C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406381D2733356700A3183C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4201118273527F100CE13E3 /* hololive_alternative.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40638272733356700A3183C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4201119273527F100CE13E3 /* hololive_alternative.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B406380B2733356300A3183C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42B387B2734888C006AC57C /* Grid_View.swift in Sources */,
+				B420111F2735371800CE13E3 /* HGrid_View.swift in Sources */,
+				B42011322735AF9600CE13E3 /* DD_IMG_View.swift in Sources */,
+				B420111227351DAA00CE13E3 /* Home_View.swift in Sources */,
+				B420111B273528BF00CE13E3 /* Video_View.swift in Sources */,
+				B420112D2735745500CE13E3 /* All_Member_Grid.swift in Sources */,
+				B42B387D273489EE006AC57C /* All_Member_View.swift in Sources */,
+				B406384727333FD100A3183C /* Generation_info.swift in Sources */,
+				B42B387927342B25006AC57C /* Generation_Row.swift in Sources */,
+				B42011342735B96500CE13E3 /* DD_Move_View.swift in Sources */,
+				B406384527333F7200A3183C /* Generation_View.swift in Sources */,
+				B406384327333F1E00A3183C /* Member_List.swift in Sources */,
+				B42011302735AC2400CE13E3 /* DD_View.swift in Sources */,
+				B40638152733356300A3183C /* ContentView.swift in Sources */,
+				B406383F27333A3000A3183C /* Hololive_Member.swift in Sources */,
+				B40638132733356300A3183C /* Hololive_bookApp.swift in Sources */,
+				B42B38752733EF3D006AC57C /* Showing_View.swift in Sources */,
+				B406384127333B3B00A3183C /* Member_info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406381B2733356700A3183C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42011202735371800CE13E3 /* HGrid_View.swift in Sources */,
+				B420111C273528BF00CE13E3 /* Video_View.swift in Sources */,
+				B40638242733356700A3183C /* Hololive_bookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40638252733356700A3183C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406382E2733356700A3183C /* Hololive_bookUITests.swift in Sources */,
+				B40638302733356700A3183C /* Hololive_bookUITestsLaunchTests.swift in Sources */,
+				B420111D273528BF00CE13E3 /* Video_View.swift in Sources */,
+				B42011212735371800CE13E3 /* HGrid_View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B40638212733356700A3183C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B406380E2733356300A3183C /* Hololive_book */;
+			targetProxy = B40638202733356700A3183C /* PBXContainerItemProxy */;
+		};
+		B406382B2733356700A3183C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B406380E2733356300A3183C /* Hololive_book */;
+			targetProxy = B406382A2733356700A3183C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B40638312733356700A3183C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B40638322733356700A3183C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B40638342733356700A3183C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hololive_book/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hololive-book-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hololive book";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiroha.Hololive-book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B40638352733356700A3183C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hololive_book/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hololive-book-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "hololive book";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiroha.Hololive-book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B40638372733356700A3183C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiroha.Hololive-bookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hololive_book.app/Hololive_book";
+			};
+			name = Debug;
+		};
+		B40638382733356700A3183C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiroha.Hololive-bookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hololive_book.app/Hololive_book";
+			};
+			name = Release;
+		};
+		B406383A2733356700A3183C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiroha.Hololive-bookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hololive_book;
+			};
+			name = Debug;
+		};
+		B406383B2733356700A3183C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shiroha.Hololive-bookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hololive_book;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B406380A2733356300A3183C /* Build configuration list for PBXProject "Hololive_book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40638312733356700A3183C /* Debug */,
+				B40638322733356700A3183C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40638332733356700A3183C /* Build configuration list for PBXNativeTarget "Hololive_book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40638342733356700A3183C /* Debug */,
+				B40638352733356700A3183C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40638362733356700A3183C /* Build configuration list for PBXNativeTarget "Hololive_bookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B40638372733356700A3183C /* Debug */,
+				B40638382733356700A3183C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B40638392733356700A3183C /* Build configuration list for PBXNativeTarget "Hololive_bookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B406383A2733356700A3183C /* Debug */,
+				B406383B2733356700A3183C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B40638072733356300A3183C /* Project object */;
+}
