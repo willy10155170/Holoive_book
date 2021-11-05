@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct DD_View: View {
     @State private var gen = ""
@@ -44,7 +45,13 @@ struct DD_View: View {
                 }
             }
         }
-        
+        .onAppear{
+            let url = Bundle.main.url(forResource: "GHOST", withExtension: "mp3")!
+            let playerItem = AVPlayerItem(url:url)
+            let player = AVPlayer()
+            player.replaceCurrentItem(with: playerItem)
+            player.play()
+        }
     }
 }
 

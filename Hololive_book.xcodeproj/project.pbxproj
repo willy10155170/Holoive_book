@@ -37,6 +37,9 @@
 		B42B387927342B25006AC57C /* Generation_Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B387827342B25006AC57C /* Generation_Row.swift */; };
 		B42B387B2734888C006AC57C /* Grid_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B387A2734888C006AC57C /* Grid_View.swift */; };
 		B42B387D273489EE006AC57C /* All_Member_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42B387C273489EE006AC57C /* All_Member_View.swift */; };
+		B43DAA942735F07E00A13D6F /* GHOST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B43DAA932735F07E00A13D6F /* GHOST.mp3 */; };
+		B43DAA952735F07E00A13D6F /* GHOST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B43DAA932735F07E00A13D6F /* GHOST.mp3 */; };
+		B43DAA962735F07E00A13D6F /* GHOST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B43DAA932735F07E00A13D6F /* GHOST.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +88,7 @@
 		B42B387827342B25006AC57C /* Generation_Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generation_Row.swift; sourceTree = "<group>"; };
 		B42B387A2734888C006AC57C /* Grid_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid_View.swift; sourceTree = "<group>"; };
 		B42B387C273489EE006AC57C /* All_Member_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Member_View.swift; sourceTree = "<group>"; };
+		B43DAA932735F07E00A13D6F /* GHOST.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GHOST.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 				B406384627333FD100A3183C /* Generation_info.swift */,
 				B406384027333B3B00A3183C /* Member_info.swift */,
 				B4201116273527F100CE13E3 /* hololive_alternative.mp4 */,
+				B43DAA932735F07E00A13D6F /* GHOST.mp3 */,
 				B40638162733356700A3183C /* Assets.xcassets */,
 				B40638182733356700A3183C /* Preview Content */,
 			);
@@ -290,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43DAA942735F07E00A13D6F /* GHOST.mp3 in Resources */,
 				B406381A2733356700A3183C /* Preview Assets.xcassets in Resources */,
 				B4201117273527F100CE13E3 /* hololive_alternative.mp4 in Resources */,
 				B40638172733356700A3183C /* Assets.xcassets in Resources */,
@@ -300,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43DAA952735F07E00A13D6F /* GHOST.mp3 in Resources */,
 				B4201118273527F100CE13E3 /* hololive_alternative.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43DAA962735F07E00A13D6F /* GHOST.mp3 in Resources */,
 				B4201119273527F100CE13E3 /* hololive_alternative.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,13 +23,6 @@ struct Showing_View: View {
 //                .clipped()
             image_extra_subview(img_name: gen_info.country + "_" + gen_info.generation, width: 390, height: 230)
             List{
-//                ForEach(0..<gen_members.count){ index in
-//                    NavigationLink{
-//                        Hololive_Member(vtuber: gen_members[index])
-//                    }label: {
-//                        Member_List(mem_info: gen_members[index])
-//                    }
-//                }
                 ForEach(gen_members) { gen_member in
                     NavigationLink{
                         Hololive_Member(vtuber: gen_member)

@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import AVKit
 
 
 struct DD_Move_View: View {
     @State private var rotateDegree: Double = 0
     @State private var show = false
+    let player = AVPlayer()
     let vtuber: Member_info
     var body: some View {
         VStack {
@@ -26,6 +28,10 @@ struct DD_Move_View: View {
         .animation(.easeInOut(duration: 5), value: show)
         .onAppear {
             show = true
+            let url = Bundle.main.url(forResource: "GHOST", withExtension: "mp3")!
+            let playerItem = AVPlayerItem(url:url)
+            player.replaceCurrentItem(with: playerItem)
+            player.play()
         }
     }
 }
