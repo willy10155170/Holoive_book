@@ -13,12 +13,14 @@ struct All_Member_Grid: View {
         VStack{
             ScrollView(.vertical) {
                 let columns = [GridItem(.adaptive(minimum: 150))]
-                LazyVGrid(columns: columns) {
-                    ForEach(all_vtuber){ vtuber in
-                        NavigationLink{
-                            Hololive_Member(vtuber: vtuber)
-                        }label: {
-                            Grid_View(vtuber: vtuber)
+                LazyVStack{
+                    LazyVGrid(columns: columns) {
+                        ForEach(all_vtuber){ vtuber in
+                            NavigationLink{
+                                Hololive_Member(vtuber: vtuber)
+                            }label: {
+                                Grid_View(vtuber: vtuber)
+                            }
                         }
                     }
                 }

@@ -15,6 +15,19 @@ struct DD_View: View {
     var body: some View {
         NavigationView{
             VStack{
+                AsyncImage(url: URL(string: "https://c.tenor.com/3qQ1QsgdatYAAAAC/suisei-hololive.gif")) { image in
+                    image
+                        .resizable()
+                        .scaledToFill()
+                } placeholder: {
+                    Color.gray
+                }
+                .frame(width: 200, height: 200)
+                HStack{
+                    Text("裝") + Text("飾").font(.title).foregroundColor(.pink).underline() + Text("用").font(.largeTitle).fontWeight(.heavy).foregroundColor(Color.orange).italic()
+                        
+                }
+                .background(.thinMaterial)
                 Button(action:{
                     let temp_gen = Int.random(in: 0...5)
                     self.gen = "\(temp_gen)期生"
@@ -38,6 +51,7 @@ struct DD_View: View {
                         .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
                     //DD_IMG_View(gen: self.gen, country: self.country)
                 }
+                Divider()
                 NavigationLink{
                     DD_Move_View(vtuber: self.vtuber)
                 }label:{
